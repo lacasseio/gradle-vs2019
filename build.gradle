@@ -9,3 +9,4 @@ plugins {
 group = 'org.gradle.cpp-samples'
 version = '1.5'
 
+file("C:/Program Files (x86)/Microsoft Visual Studio").listFiles().each { println it }
