@@ -12,10 +12,10 @@ version = '1.5'
 file("C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview").listFiles().each { println it }
 println "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\vswhere.exe -all -legacy -prerelease -format json".execute().text
 
-model {
-    toolChains {
-        vs2019(VisualCpp) {
-            installDir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview"
-        }
-    }
-}
+//model {
+//    toolChains {
+//        vs2019(VisualCpp) {
+//            installDir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview"
+//        }
+//    }
+//}
